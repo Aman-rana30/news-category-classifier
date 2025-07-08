@@ -12,7 +12,7 @@ from PIL import Image
 def load_model():
     model_path = "logreg_model.pkl"
     vectorizer_path = "tfidf_vectorizer.pkl"
-    label_encoder_path = "C:/Users/amanr/ML with python/Project/news-classifier/label_encoder.pkl"
+    label_encoder_path = "label_encoder.pkl"
    
     
     with open(model_path, "rb") as f:
